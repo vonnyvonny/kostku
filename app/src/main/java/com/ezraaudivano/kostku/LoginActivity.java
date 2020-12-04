@@ -70,25 +70,22 @@ public class LoginActivity extends AppCompatActivity {
                 String ps = password.getText().toString().trim();
 
                 if(TextUtils.isEmpty(em) || TextUtils.isEmpty(ps) || ps.length() < 6 || !Patterns.EMAIL_ADDRESS.matcher(em).matches()) {
-                    if(TextUtils.isEmpty(em) || !Patterns.EMAIL_ADDRESS.matcher(em).matches()){
-                        emailL.setError("Invalid Email!");
+                    if (TextUtils.isEmpty(em) ) {
+                        emailL.setError("Email Tidak Boleh Kosong");
+                    }
+                    else if(!Patterns.EMAIL_ADDRESS.matcher(em).matches()){
+                        emailL.setError("Email Tidak Valid");
                     }else{
                         emailL.setError("");
                     }
                     if(ps.isEmpty()){
-                        passwordL.setError("Invalid Password!");
+                        passwordL.setError("Password Tidak Boleh Kosong!");
                     }else {
                         passwordL.setError("");
                     }
 
-                    if(ps.length() < 6){
-                        passwordL.setError("Password too short!");
-                    }else {
-                        passwordL.setError("");
-                    }
 
                 }else {
-                    System.out.println("SYALALABEZA");
                        fAuth.signInWithEmailAndPassword(em, ps).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -99,7 +96,7 @@ public class LoginActivity extends AppCompatActivity {
                                         Toast.makeText(LoginActivity.this, "Harap Verifikasi dulu", Toast.LENGTH_SHORT).show();
                                     }else{
                                         addNotification();
-                                        Toast.makeText(LoginActivity.this, "Login Succesful", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(LoginActivity.this, "Email dan Password Benar", Toast.LENGTH_SHORT).show();
                                         savedPreferences();
                                         Bundle mBundle = new Bundle();
                                         Intent intent = new Intent(getApplicationContext(), MenuActivity.class);
