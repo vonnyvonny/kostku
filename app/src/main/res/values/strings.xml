@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">KostKu</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="mapbox_access_token">pk.eyJ1IjoiZXpyYWRpbzEiLCJhIjoiY2tmb3RoZ2dzMDEwNTJ4cWxyYTVlbHFkYiJ9.yizemDuFtpNc7lUHeyiUuA</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+    <string name="kost_name">Nama Kost</string>
+    <string name="kost_address">Alamat Kost</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_kost">ADD KOST</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="login_button">Login</string>
+    <string name="gotoSignup">Don\'t have account ?      </string>
+    <string name="daftar_kamar">DAFTAR KAMAR</string>
+    <string name="land_size">Luas Bangunan</string>
+    <string name="price">Price</string>
+    <string name="save">Save</string>
+    <string name="eksklusif">Eksklusif</string>
+    <string name="reguler">Reguler</string>
+    <string name="room_name">Room Name</string>
+    <string name="back">BACK</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="re_type_password">Re type Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="telephone">Telephone</string>
+    <string name="fullname">Fullname</string>
+    <string name="click_to_change_photo">Click to change photo</string>
+    <string name="register_now">Register Now!</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="login_now">Login Now!</string>
+    <string name="sisa_kamar">Sisa Kamar</string>
+    <string name="edit_kost">Edit Kost</string>
+</resources>

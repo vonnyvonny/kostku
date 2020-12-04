@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03958C</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+<!--    <color name="textColorPrimary">#000000</color>-->
+<!--    <color name="textColorSecondary">#000000</color>-->
+    <color name="whiteText">#ffffff</color>
+    <color name="background">#ffffff</color>
+    <color name="centerColor">#009688</color>
+    <color name="endColor">#00695C</color>
+    <color name="startColor">#4DB6AC</color>
+
+    <color name="pastelGreen">#C9FFDD</color>
+    <color name="buttonColor">#30533D</color>
+    <color name="greenHeader">#03AA8C</color>
+
+<!--    <color name="colorCenter">#009688</color>-->
+<!--    android:centerColor=""-->
+<!--    android:endColor="#00695C"-->
+<!--    android:startColor="#4DB6AC"-->
+</resources>

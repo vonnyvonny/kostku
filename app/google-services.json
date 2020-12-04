@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "345393543064",
+    "firebase_url": "https://kostku-53267.firebaseio.com",
+    "project_id": "kostku-53267",
+    "storage_bucket": "kostku-53267.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345393543064:android:814869a37e0fcca7225ded",
+        "android_client_info": {
+          "package_name": "com.ezraaudivano.kostku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345393543064-05nk6b8724jiu4mrtgrggupbb7m418u8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ezraaudivano.kostku",
+            "certificate_hash": "e1f44ff07841f3cfaefe4cab2ef94878380f6f09"
+          }
+        },
+        {
+          "client_id": "345393543064-h466ao6fac4se7k9mvqghe4btl6v4v6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBW_w2i-AKGClkjVgFHjTGfGkpGZqPpCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345393543064-h466ao6fac4se7k9mvqghe4btl6v4v6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

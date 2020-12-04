@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+<!--        <item name="android:textColorPrimary">@color/textColorPrimary</item>-->
+<!--        <item name="android:textColorSecondary">@color/textColorSecondary</item>-->
+<!--        <color name="textColorPrimary">#ffffff</color>-->
+<!--        <color name="textColorSecondary">#ffffff</color>-->
+<!--        <color name="background">#666873</color>-->
+    </style>
+    
+<!--    <style name="DrawerHamburgerStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">-->
+<!--        <item name="spinBars">true</item>-->
+<!--        <item name="color">@color/textColorSecondary</item>-->
+<!--    </style>-->
+
+<!--    <style name="DarkTheme" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="android:statusBarColor">@color/colorPrimary</item>-->
+<!--        <color name="textColorPrimary" tools:ignore="DuplicateDefinition">#212121</color>-->
+<!--        <color name="textColorSecondary" tools:ignore="DuplicateDefinition">#787878</color>-->
+<!--        <color name="background" tools:ignore="DuplicateDefinition">#ffffff</color>-->
+<!--    </style>-->
+
+<!--    <style name="AppTheme.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--    </style>-->
+
+<!--    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="android:statusBarColor">@color/colorPrimary</item>-->
+<!--        <color name="textColorPrimary">#ffffff</color>-->
+<!--        <color name="textColorSecondary">#ffffff</color>-->
+<!--        <color name="background">#666873</color>-->
+<!--    </style>-->
+
+<!--    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>&ndash;&gt;-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--        <item name="android:statusBarColor">@color/colorPrimary</item>-->
+<!--        <color name="textColorPrimary" tools:ignore="DuplicateDefinition">#212121</color>-->
+<!--        <color name="textColorSecondary" tools:ignore="DuplicateDefinition">#787878</color>-->
+<!--        <color name="background" tools:ignore="DuplicateDefinition">#ffffff</color>-->
+<!--    </style>-->
+
+
+
+</resources>

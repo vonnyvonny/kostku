@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#666873</color>
+    <color name="colorPrimaryDark">#262628</color>
+    <color name="colorAccent">#FF4081</color>
+<!--    <color name="textColorPrimary">#000000</color>-->
+<!--    <color name="textColorSecondary">#000000</color>-->
+    <color name="background">#000000</color>
+    <color name="colorCenter">#272627</color>
+    <color name="whiteText">#ffffff</color>
+    <color name="centerColor">#666873</color>
+    <color name="endColor">#262628</color>
+    <color name="startColor">#999ba6</color>
+
+    <color name="pastelGreen">#999ba6</color>
+    <color name="buttonColor">#555555</color>
+    <color name="greenHeader">#666873</color>
+
+</resources>

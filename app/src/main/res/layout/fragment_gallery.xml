@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="myAdapter"
+            type="com.ezraaudivano.kostku.adapter.AnggotaAdapter" />
+    </data>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        tools:context=".SignUpActivity"
+        android:id="@+id/containerAddKost">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.gallery.GalleryFragment"
+        android:orientation="vertical"
+        android:id="@+id/containerGal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="50px"
+            android:textSize="60px"
+            android:text="About Us"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Ini Dirancang Oleh Kelompok H"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="50px"
+            android:textAlignment="center"
+            android:textStyle="italic"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:adapter="@{myAdapter}"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:id="@+id/recycler_view_anggota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:listitem="@layout/item_anggota"/>
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_margin="16dp"
+            android:id="@+id/btnNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIND US" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</layout>
