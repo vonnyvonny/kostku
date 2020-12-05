@@ -80,9 +80,9 @@ public class LoginPresenterTest {
     public void shouldShowLoginErrorWhenEmailAndPasswordAreInvalid() throws
             Exception {
         System.out.println("Test Case - 6 : Invalid Password");
-        when(view.getEmail()).thenReturn("admin");
+        when(view.getEmail()).thenReturn("ezraaudivano@gmail.com");
         System.out.println("Email : "+view.getEmail());
-        when(view.getPassword()).thenReturn("admins");
+        when(view.getPassword()).thenReturn("askhjdgaskhdj");
         System.out.println("Password : "+view.getPassword());
         when(service.getValid(view, view.getEmail(),
                 view.getPassword())).thenReturn(false);

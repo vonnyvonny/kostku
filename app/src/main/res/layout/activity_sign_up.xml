@@ -125,14 +125,14 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSignup"
-                android:fontFamily="@font/amiko"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/sp_rectangel_root"
-                android:text="SIGN UP">
+                android:fontFamily="@font/amiko"
+                android:text="SIGN UP"
+                android:textStyle="bold">
 
             </com.google.android.material.button.MaterialButton>
 

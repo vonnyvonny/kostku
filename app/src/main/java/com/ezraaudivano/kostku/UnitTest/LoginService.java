@@ -20,7 +20,7 @@ public class LoginService {
 
     public void login(final LoginView view, String email, String password) {
         FirebaseAuth fAuth = FirebaseAuth.getInstance();
-        ;
+
         final FirebaseUser[] user = new FirebaseUser[1];
 
 
