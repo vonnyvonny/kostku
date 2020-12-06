@@ -1,8 +1,6 @@
 package com.ezraaudivano.kostku.UnitTestRegister;
 
-import com.ezraaudivano.kostku.UnitTest.LoginCallback;
-import com.ezraaudivano.kostku.UnitTest.LoginService;
-import com.ezraaudivano.kostku.UnitTest.LoginView;
+
 
 public class RegisterPresenter {
     private RegisterView view;

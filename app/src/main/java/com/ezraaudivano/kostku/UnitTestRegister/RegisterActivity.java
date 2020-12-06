@@ -7,7 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.ezraaudivano.kostku.R;
-import com.ezraaudivano.kostku.UnitTest.ActivityUtil;
+import com.ezraaudivano.kostku.UnitTestRegister.ActivityUtil;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 

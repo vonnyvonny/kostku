@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 
 import com.ezraaudivano.kostku.LoginActivity;
 import com.ezraaudivano.kostku.SignUpActivity;
-import com.ezraaudivano.kostku.UnitTest.LoginView;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
